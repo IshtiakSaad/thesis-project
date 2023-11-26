@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Thesis</title>
+        <link rel="icon" type="image/png" href="music.png" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="navigation">
+            <img src="img/ruet-logo.png" class="logo" alt="RUET-LOGO">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <!-- Photo -->
+            <div class="img-container">
+                <img id="uploadedImage" src="/img/white-screen.png">
+            </div>
+
+            <!-- Result Indicators -->
+            <div class="result-box">
+                <button class="indicator-button button1">Healthy</button>
+                <button class="indicator-button button2">Healthy</button>
+                <button class="indicator-button button3">Healthy</button>
+                <button class="indicator-button button4">Healthy</button>
+                <button class="indicator-button button5">Healthy</button>
+                <button class="indicator-button button6">Healthy</button>
+            </div>
+
+            <!-- Submit Box -->
+            <div class="submit-container">
+                <label for="uploader" id="upload-icon">
+                    <img src="img/icon.png" alt="Upload Image Icon">
+                </label>
+                <input type="file" id="uploader" accept="image/*" onchange="uploadImage()">
+                <button class="button-sumbit" onclick="gradeImage()">Submit</button>    
+            </div>
+        </div>
+
+
+        <!-- About the project -->
+        <div class="about">
+            <h3 id="about">About this Project</h3>
+            <p class="about-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. In eveniet veritatis consequatur deserunt vero sapiente unde, quam laborum placeat doloremque, nam est, voluptates sed aperiam ratione maiores laudantium nemo mollitia.Lorem ipsum dolor sit amet consectetur, adipisicing elit. In eveniet veritatis consequatur deserunt vero sapiente unde, quam laborum placeat doloremque, nam est, voluptates sed aperiam ratione maiores laudantium nemo mollitia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In eveniet veritatis consequatur deserunt vero sapiente unde, quam laborum placeat doloremque, nam est, voluptates sed aperiam ratione maiores laudantium nemo mollitia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In eveniet veritatis consequatur deserunt vero sapiente unde, quam laborum placeat doloremque, nam est, voluptates sed aperiam ratione maiores laudantium nemo mollitia.
+            </p>
+        </div>
+
+        <!-- Meet the Team -->
+        <div class="team">
+            
+        </div>
+
+        <!-- Script -->
+        <script src="script.js"></script>
+    </body>
+</html>
